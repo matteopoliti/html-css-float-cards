@@ -11,7 +11,7 @@ html{
 .container{
     width: 80%;
     margin: 30px auto 0;
-    
+    background-color: grey;
 }
 
 header h1{
@@ -21,5 +21,20 @@ header h1{
 
 header p{
     text-align: center;
-    margin-block: 30px;
+    margin-block: 40px;
+}
+
+section{
+    height: 100px;
+    background-color: red;
+    border: 2px solid black;
+    width: calc(100% / 3);
+    float: left;
+    margin-right: ;: 1px;
+}
+
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
 }
