@@ -24,14 +24,52 @@ header p{
     margin-block: 40px;
 }
 
-section{
-    height: 100px;
-    background-color: red;
-    border: 2px solid black;
-    width: calc(100% / 3);
+.contatti{
+    background-color:rgba(15, 14, 23, 1);
+    width: calc(100% / 3 - 30px);
+    margin: 15px;
     float: left;
-    margin-right: ;: 1px;
 }
+
+.contatti figure{
+    width: 100px;
+    float: left;
+}
+
+figure img{
+    width: 100%;
+}
+
+.contatti ul{
+    color: white;
+    float: left;
+    margin-left: 1em;
+    list-style-type: none;
+
+}
+
+.contatti ul .nome{
+    font-weight: bold;
+    font-size: 20px;
+    margin-block: 10px;
+}
+
+.contatti ul .professione{
+    font-size: 14px;
+    margin-block: 10px;
+}
+
+.contatti ul .email{
+    font-size: 14px;
+    text-decoration: none;
+    color: rgba(51, 167, 215, 1);
+
+}
+
+.contatti ul .email:hover{
+    text-decoration: underline;
+}
+
 
 .clearfix::after{
     content: "";
